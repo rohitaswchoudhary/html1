@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript in body</h2>
+    <p id="demo"></p>
+
+    <p id="demo2">A Paragraph.</p>
+    <p id="print">The window.print() Method</p>
+    <p>click the button to print the current page.</p>
+    <button onclick="window.print()">Print this page.</button>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <script>
+        document.getElementById("demo").innerHTML = "My First JavaScript"+ (5+10) ;
+        function myFunction(){
+        document.getElementById("demo2").innerHTML = "paragraph changed.";
+        }
+        document.write(5+10);
+        // window.alert(5+10);
+        console.log(5+15+18);
+
+    </script>
+</body>
+</html>
